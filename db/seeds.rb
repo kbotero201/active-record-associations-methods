@@ -2,6 +2,8 @@ Song.delete_all
 Genre.delete_all
 Artist.delete_all
 
+
+
 hotline_bling = Song.create(:name=>'Hotline Bling')
 thriller = Song.create(:name=>'Thriller')
 
@@ -19,3 +21,5 @@ mj.songs << thriller
 
 pop.songs << thriller
 rap.songs << hotline_bling
+
+binding.pry
